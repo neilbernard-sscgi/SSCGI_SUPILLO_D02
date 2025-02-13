@@ -1,0 +1,36 @@
+/* css reset */
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+body{
+    font-family: "Roboto", serif;
+}
+.navbar{
+ list-style: none;
+ padding: 10px 20px;
+ margin: 0;
+ display: flex;
+ align-items: center;
+ background-color: green;   
+}
+.nav-logo img{
+    width: 150px;
+    height: auto;
+}
+.nav{
+    margin: 0 15px;
+
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: backgroung-color 0.3s;
+}
+.nav a:hover{
+    background-color: #333;
+}
